@@ -1,0 +1,9 @@
+c:\users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\bin\Debug\LibraryAPI.exe.config
+C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\bin\Debug\LibraryAPI.exe
+C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\bin\Debug\LibraryAPI.pdb
+C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.csprojResolveAssemblyReference.cache
+C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.exe
+C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.pdb
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.exe.config
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.exe
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.pdb
