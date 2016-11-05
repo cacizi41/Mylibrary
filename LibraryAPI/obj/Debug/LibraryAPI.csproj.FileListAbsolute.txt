@@ -7,3 +7,10 @@ C:\Users\wenjing\documents\visual studio 2015\Projects\LibraryAPI\LibraryAPI\obj
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.exe.config
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.exe
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.pdb
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.csprojResolveAssemblyReference.cache
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.exe
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.pdb
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\EntityFramework.dll
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\EntityFramework.xml
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\EntityFramework.SqlServer.xml
