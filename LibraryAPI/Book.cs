@@ -9,14 +9,15 @@ namespace LibraryAPI
     /// <summary>
     /// XML Definition of Book
     /// </summary>
-    class Book
+    public class Book
     {
         #region Properties
+        [Key]
         public int ISBN { get; set; }
         public string Title { get; set; }
         public DateTime PublishedYear { get; set; }
         public decimal Price { get; set; }
-        public int Count { get; set; }
+        public int Copies { get; set; }
         #endregion
 
         #region Methods

@@ -31,6 +31,9 @@ namespace LibraryAPI
             Library.AddBook(book);
 
             Library.PrintBooks();
+            // Console.WriteLine("----Welcome to my library----");
+            // Console.WriteLine("1. Add a book to the library");
+            // 
         }
     }
 }
