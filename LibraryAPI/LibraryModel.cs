@@ -6,7 +6,8 @@ namespace LibraryAPI
 
     public class LibraryModel : DbContext
     {
-        // Your context has been configured to use a 'LibraryModel' connection string from your application's 
+        // Your context has been configured to use a 'LibraryModel' 
+        // connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
         // 'LibraryAPI.LibraryModel' database on your LocalDb instance. 
         // 

@@ -6,29 +6,31 @@ using System.Threading.Tasks;
 
 namespace LibraryAPI
 {
-    static class Library
+    public enum Rentaltypes
+    {
+        Book,
+        Audio,
+        Video
+    }
+    public static class Library
     /// Everything needs to be static
     {
         #region Properties
         public static string Name { get; set; }
+
         public static string Address { get; set; }
         /// <summary>
         /// data type: collections of books, list is a collection type
         /// </summary>
-        public static List<Book> Books { get; set; }
+        /// public static List<Book> Books { get; set; }
         #endregion
 
-        #region Constructors
-        /// Not return type, create
-        static Library()
-        {
-            Books = new List<Book>();
-        }
-        #endregion
 
         #region Methods
         public static void AddBook(Book book)
         {
+            /// open new connection
+            /// using statement closes connection
             using (var model = new LibraryModel())
             {
                 model.Books.Add(book);
@@ -36,15 +38,20 @@ namespace LibraryAPI
             }
                 
 
+
         }
 
         public static void PrintBooks()
         {
-            foreach (var book in Books) 
+            using (var model = new LibraryModel())
             {
-                Console.WriteLine("Title: {0}, ISBN: {1}, Price: {2}, Published: {3}",
-                    book.Title, book.ISBN, book.Price, book.PublishedYear);
+                foreach (var book in Books)
+                {
+                    Console.WriteLine("Title: {0}, ISBN: {1}, Price: {2}, Published: {3}",
+                        book.Title, book.ISBN, book.Price, book.PublishedYear);
+                }
             }
+                
         }
         #endregion
     }
