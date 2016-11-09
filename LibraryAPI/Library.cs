@@ -45,7 +45,7 @@ namespace LibraryAPI
         {
             using (var model = new LibraryModel())
             {
-                foreach (var book in Books)
+                foreach (var book in model.Books)
                 {
                     Console.WriteLine("Title: {0}, ISBN: {1}, Price: {2}, Published: {3}",
                         book.Title, book.ISBN, book.Price, book.PublishedYear);

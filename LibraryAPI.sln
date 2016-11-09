@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAPI", "LibraryAPI\LibraryAPI.csproj", "{055BD641-93B3-480F-AABB-F763008D3613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryUI", "LibraryUI\LibraryUI.csproj", "{06D2031A-E276-4A18-B12A-3CAEF724D3AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{055BD641-93B3-480F-AABB-F763008D3613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055BD641-93B3-480F-AABB-F763008D3613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055BD641-93B3-480F-AABB-F763008D3613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D2031A-E276-4A18-B12A-3CAEF724D3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D2031A-E276-4A18-B12A-3CAEF724D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D2031A-E276-4A18-B12A-3CAEF724D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D2031A-E276-4A18-B12A-3CAEF724D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
