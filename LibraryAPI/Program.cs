@@ -45,7 +45,7 @@ namespace LibraryAPI
                         book.Title = title;
                         book.Price = price;
                         book.Count = 2;
-                        book.PublishedYear = DateTime.now;
+                        book.PublishedYear = DateTime.Now;
                         book.AuthorId = 1;
                         Library.AddBook(book);
                         break;
