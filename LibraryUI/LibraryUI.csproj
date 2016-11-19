@@ -274,7 +274,7 @@
     <Content Include="Views\Books\Index.cshtml" />
     <Content Include="Views\Authors\Create.cshtml" />
     <Content Include="Views\Authors\Delete.cshtml" />
-    <Content Include="Views\Authors\Details.cshtml" />
+    <Content Include="Views\Manage\Details.cshtml" />
     <Content Include="Views\Authors\Edit.cshtml" />
     <Content Include="Views\Authors\Index.cshtml" />
   </ItemGroup>
