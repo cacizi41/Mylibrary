@@ -14,3 +14,8 @@ C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\EntityFramework.Sql
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.dll.config
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\bin\Debug\LibraryAPI.dll
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.dll
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.InitialCreate.resources
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.csproj.GenerateResource.Cache
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.FirstMigrationAfterDropDB.resources
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.RequiredChanges.resources
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.FullNameAdd.resources

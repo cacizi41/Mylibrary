@@ -20,7 +20,7 @@ namespace LibraryAPI
 
         public string Title { get; set; }
 
-        public DateTime PublishedYear { get; set; }
+        public int PublishedYear { get; set; }
 
         public decimal Price { get; set; }
 

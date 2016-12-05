@@ -12,9 +12,12 @@ namespace LibraryAPI
         #region Properties
         [Key]
         public int Id { get; set; }
+        [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string FullName { get; set; }
         public string Biography { get; set; }
+        public int Age { get; set; }
 
         public virtual ICollection<Book> Books { get; set; }
         #endregion

@@ -21,7 +21,7 @@ namespace LibraryUI.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("LibraryModel", throwIfV1Schema: false)
         {
         }
 

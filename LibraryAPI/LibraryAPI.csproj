@@ -63,12 +63,43 @@
     <Compile Include="Library.cs" />
     <Compile Include="LibraryModel.cs" />
     <Compile Include="Media.cs" />
+    <Compile Include="Migrations\201612051941163_InitialCreate.cs" />
+    <Compile Include="Migrations\201612051941163_InitialCreate.Designer.cs">
+      <DependentUpon>201612051941163_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612052011071_FirstMigrationAfterDropDB.cs" />
+    <Compile Include="Migrations\201612052011071_FirstMigrationAfterDropDB.Designer.cs">
+      <DependentUpon>201612052011071_FirstMigrationAfterDropDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612052017269_RequiredChanges.cs" />
+    <Compile Include="Migrations\201612052017269_RequiredChanges.Designer.cs">
+      <DependentUpon>201612052017269_RequiredChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612052103019_FullNameAdd.cs" />
+    <Compile Include="Migrations\201612052103019_FullNameAdd.Designer.cs">
+      <DependentUpon>201612052103019_FullNameAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rental.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612051941163_InitialCreate.resx">
+      <DependentUpon>201612051941163_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612052011071_FirstMigrationAfterDropDB.resx">
+      <DependentUpon>201612052011071_FirstMigrationAfterDropDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612052017269_RequiredChanges.resx">
+      <DependentUpon>201612052017269_RequiredChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612052103019_FullNameAdd.resx">
+      <DependentUpon>201612052103019_FullNameAdd.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
