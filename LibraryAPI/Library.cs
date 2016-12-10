@@ -44,12 +44,35 @@ namespace LibraryAPI
 
         public static List<Book> GetBooks()
         {
+            ///connect to db
             using (var model = new LibraryModel())
             {
-                var books = model.Books.Include(b => b.Author);
+                var books = model.Books.Include("Author");
                 return books.ToList<Book>();
             }
                 
+        }
+
+        public static int BorrowBook(int id, string emailAddress)
+        {
+            using (var model = new LibraryModel())
+            {
+                var account = model.Accounts.Where(a => a.EmailAddress == emailAddress).FirstOrDefault();
+                if (account == null)
+                {
+                    account = new Account();
+                    account.EmailAddress = emailAddress;
+                    model.Accounts.Add(account);
+                    model.SaveChanges();
+                }
+                var rental = new Rental();
+                rental.AccountId = account.AccountId;
+                rental.RentalType = Rentaltypes.Book;
+                rental.Id = id;
+                model.Rentals.Add(rental);
+                model.SaveChanges();
+                return rental.RentalId;
+            }
         }
         #endregion
     }

@@ -19,3 +19,4 @@ C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.csproj.G
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.FirstMigrationAfterDropDB.resources
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.RequiredChanges.resources
 C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.FullNameAdd.resources
+C:\Users\wenjing\Github\Repos\Mylibrary\LibraryAPI\obj\Debug\LibraryAPI.Migrations.modelChange.resources

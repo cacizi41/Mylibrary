@@ -13,7 +13,7 @@ namespace LibraryAPI
         [Key]
         public int RentalId { get; set; }
 
-        public Rentaltypes RentalTypes { get; set; }
+        public Rentaltypes RentalType { get; set; }
 
         public int Id { get; set; }
 
